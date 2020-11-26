@@ -8,4 +8,4 @@ Does a cleanup of the default NuGet and Maven repositories.
 Creates an group and a host for whichever repository you need. It has an extra trigger (proxyURL) that also adds the proxy if required.
 
 Anonymous authentication is enabled
-Nuget-API is added to the authentication realm
+Nuget-API is added to the authentication realm.
