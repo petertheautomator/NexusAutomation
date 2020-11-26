@@ -1,0 +1,14 @@
+{
+    "name": "<Product>",
+    "online": true,
+    "storage": {
+        "blobStoreName": "<BlobStorage>",
+        "strictContentTypeValidation": true
+    },
+    "group": {
+        "memberNames": [
+            "<Repository>",
+            "<Proxy>"
+        ]
+    }
+}

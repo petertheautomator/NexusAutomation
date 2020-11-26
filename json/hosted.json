@@ -1,0 +1,13 @@
+{
+    "name": "<Repository>",
+    "online": true,
+    "storage": {
+        "blobStoreName": "<BlobStorage>",
+        "strictContentTypeValidation": true,
+        "writePolicy": "allow_once"
+    },
+    "cleanup": {
+        "policyNames": [
+        ]
+    }
+}
