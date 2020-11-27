@@ -1,4 +1,8 @@
-#edit
+<#
+    Usage: 
+    setup.ps1 -URL http://<yourhost> -user <username> -Password <password> -product 'Chocolatey' -RepositoryType 'nuget'
+    setup.ps1 -URL http://<yourhost> -user <username> -Password <password> -product 'Python' -RepositoryType 'pypi' -ProxyURL 'https://pypi.org'
+#> 
 PARAM (
     [string]$user = 'admin',
     [string]$password = (Get-Content -path 'C:\ProgramData\sonatype-work\nexus3\admin.password'),

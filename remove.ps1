@@ -1,3 +1,6 @@
+<#
+    Usage: ./remove.ps1 -URL http://<yourhost> -user <username> -Password <password>
+#> 
 PARAM (
     [string]$user = 'admin',
     [string]$password = (Get-Content -path 'C:\ProgramData\sonatype-work\nexus3\admin.password'),
