@@ -40,7 +40,7 @@ If ($ProxyURL) {
 
 #Get current repositories
 write-host "Getting repository info"
-$repo = invoke-restmethod -Method GET -uri "$baseURL/v1/repositories" -ContentType "application/json" -Headers @{Authorization = "Basic $base64AuthInfo" } #Get repositories
+$repo = invoke-restmethod -Method GET -uri "$baseURL/v1/repositories" -ContentType "application/json" -Headers @{Authorization = "Basic $base64AuthInfo" }
 
 #Prepare the json files for the repositories
 Foreach ($Item in $CreateRepos){
